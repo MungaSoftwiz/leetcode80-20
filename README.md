@@ -1,4 +1,4 @@
-# LeetCode Mastery: The 80/20 Approach
+# Leetcode80-20: The 80/20 Approach
 
 Welcome to my Leetode repository! This repository is dedicated to solving Leetdode
 problems using the 80/20 principle, focusing on the 20% of problem patterns that will yield
