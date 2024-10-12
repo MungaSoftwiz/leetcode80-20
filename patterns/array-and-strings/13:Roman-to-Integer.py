@@ -11,6 +11,8 @@
 # finding if the number in an index is greater than the following one. If so subtract
 # the preceding from the present and skip by 2.
 
+# Solution: O(n) for Tc and O(1) for Sc
+
 
 class Solution:
     def romanToInt(self, s: str) -> int:
