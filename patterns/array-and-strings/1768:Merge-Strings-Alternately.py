@@ -2,7 +2,8 @@
 
 # https://leetcode.com/problems/merge-strings-alternately/description/
 # difficulty: easy
-# tags: array, string, two pinter
+# tags: array(list), string, two pointer
+# Pattern: String builder pattern. (Allows changes to be made in place)
 
 # Problem
 # You are given two strings word1 and word2. Merge the strings by adding letters in alternating order,
@@ -11,6 +12,7 @@
 
 # Approach
 # Use a two pinter to keep track of the position in the two strings.
+# Use an empty list(string builder) for efficiency.
 # After inserting a char in the list increment pointer and change pointeer to other word.
 # Repeat process until both words are depleted.
 # It would be time consuming to do this in a string so we make a list and then .join the chars to a string.
